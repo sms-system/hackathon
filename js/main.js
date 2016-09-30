@@ -11,7 +11,7 @@ soundManager.setup({
   onready: function() {
 
   soundManager.createSound({
-    url: '7pqzit4s.mp3'
+    url: '07_We_re_the_Resistors.mp3'
   }).play({
     volume: 60
   });
