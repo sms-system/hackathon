@@ -94,6 +94,15 @@ html, body {
   animation-fill-mode: forwards;
   animation: messagelast 1s linear;
 }
+#game_screen .message.last a {
+  padding: 10px 30px;
+  margin-top: 30px;
+  border: solid 3px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  z-index: 2;
+}
 #game_screen .message:after {
   height: 100%;
   content: '';
